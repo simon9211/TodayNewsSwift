@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		CB7E499E5CA03EC51AECF7D5 /* Pods_TodayNewsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30170B49746CC83702382EFD /* Pods_TodayNewsSwift.framework */; };
+		DA0B452C1EE10995003FF557 /* SMFirstInstroduceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B452A1EE10995003FF557 /* SMFirstInstroduceController.swift */; };
+		DA0B452D1EE10995003FF557 /* SMFirstInstroduceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA0B452B1EE10995003FF557 /* SMFirstInstroduceController.xib */; };
+		DA0B452F1EE11BE3003FF557 /* SMHomeTopicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B452E1EE11BE3003FF557 /* SMHomeTopicController.swift */; };
+		DA0B45311EE13558003FF557 /* SMAddTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B45301EE13558003FF557 /* SMAddTopicViewController.swift */; };
 		DAE286F81EDEC1F700D597B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE286F61EDEC1F700D597B6 /* Main.storyboard */; };
 		DAE286FA1EDEC1F700D597B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE286F91EDEC1F700D597B6 /* Assets.xcassets */; };
 		DAE286FD1EDEC1F700D597B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE286FB1EDEC1F700D597B6 /* LaunchScreen.storyboard */; };
 		DAE287081EDEC1F700D597B6 /* TodayNewsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE287071EDEC1F700D597B6 /* TodayNewsSwiftTests.swift */; };
 		DAE287131EDEC1F700D597B6 /* TodayNewsSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE287121EDEC1F700D597B6 /* TodayNewsSwiftUITests.swift */; };
-		DAE287311EDEC90400D597B6 /* SMFirstInstroduceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE287301EDEC90400D597B6 /* SMFirstInstroduceController.swift */; };
 		DAE287391EDECA5E00D597B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE287351EDECA5E00D597B6 /* AppDelegate.swift */; };
 		DAE2873A1EDECA5E00D597B6 /* SMConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE287361EDECA5E00D597B6 /* SMConst.swift */; };
 		DAE2873B1EDECA5E00D597B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE287371EDECA5E00D597B6 /* ViewController.swift */; };
@@ -26,6 +29,8 @@
 		DAE2875A1EDED4BF00D597B6 /* SMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE287591EDED4BF00D597B6 /* SMNavigationController.swift */; };
 		DAE2875C1EDEEADC00D597B6 /* SMScrollTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2875B1EDEEADC00D597B6 /* SMScrollTitleView.swift */; };
 		DAE2875E1EDF0E5400D597B6 /* SMNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2875D1EDF0E5400D597B6 /* SMNetworkTool.swift */; };
+		DAE287601EDFB09E00D597B6 /* SMHomeTopTitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2875F1EDFB09E00D597B6 /* SMHomeTopTitleModel.swift */; };
+		DAE287A41EE0740D00D597B6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE287A31EE0740D00D597B6 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,10 @@
 		0C491AF914D1CA76EB9392CD /* Pods-TodayNewsSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNewsSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayNewsSwift/Pods-TodayNewsSwift.release.xcconfig"; sourceTree = "<group>"; };
 		30170B49746CC83702382EFD /* Pods_TodayNewsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayNewsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8158C60FC0DB357E08DE02A7 /* Pods-TodayNewsSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNewsSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayNewsSwift/Pods-TodayNewsSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		DA0B452A1EE10995003FF557 /* SMFirstInstroduceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMFirstInstroduceController.swift; sourceTree = "<group>"; };
+		DA0B452B1EE10995003FF557 /* SMFirstInstroduceController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMFirstInstroduceController.xib; sourceTree = "<group>"; };
+		DA0B452E1EE11BE3003FF557 /* SMHomeTopicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMHomeTopicController.swift; sourceTree = "<group>"; };
+		DA0B45301EE13558003FF557 /* SMAddTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMAddTopicViewController.swift; sourceTree = "<group>"; };
 		DAE286EF1EDEC1F700D597B6 /* TodayNewsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNewsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE286F71EDEC1F700D597B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAE286F91EDEC1F700D597B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +69,6 @@
 		DAE2870E1EDEC1F700D597B6 /* TodayNewsSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodayNewsSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE287121EDEC1F700D597B6 /* TodayNewsSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayNewsSwiftUITests.swift; sourceTree = "<group>"; };
 		DAE287141EDEC1F700D597B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAE287301EDEC90400D597B6 /* SMFirstInstroduceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMFirstInstroduceController.swift; sourceTree = "<group>"; };
 		DAE287351EDECA5E00D597B6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAE287361EDECA5E00D597B6 /* SMConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMConst.swift; sourceTree = "<group>"; };
 		DAE287371EDECA5E00D597B6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +81,8 @@
 		DAE287591EDED4BF00D597B6 /* SMNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNavigationController.swift; sourceTree = "<group>"; };
 		DAE2875B1EDEEADC00D597B6 /* SMScrollTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMScrollTitleView.swift; sourceTree = "<group>"; };
 		DAE2875D1EDF0E5400D597B6 /* SMNetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNetworkTool.swift; sourceTree = "<group>"; };
+		DAE2875F1EDFB09E00D597B6 /* SMHomeTopTitleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMHomeTopTitleModel.swift; sourceTree = "<group>"; };
+		DAE287A31EE0740D00D597B6 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,7 +198,8 @@
 		DAE287251EDEC88F00D597B6 /* Login&Register */ = {
 			isa = PBXGroup;
 			children = (
-				DAE287301EDEC90400D597B6 /* SMFirstInstroduceController.swift */,
+				DA0B452A1EE10995003FF557 /* SMFirstInstroduceController.swift */,
+				DA0B452B1EE10995003FF557 /* SMFirstInstroduceController.xib */,
 			);
 			path = "Login&Register";
 			sourceTree = "<group>";
@@ -227,6 +238,7 @@
 		DAE287321EDECA5E00D597B6 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				DAE287A31EE0740D00D597B6 /* UIView+Extension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -263,6 +275,8 @@
 			isa = PBXGroup;
 			children = (
 				DAE2874B1EDED19300D597B6 /* SMHomeViewController.swift */,
+				DA0B452E1EE11BE3003FF557 /* SMHomeTopicController.swift */,
+				DA0B45301EE13558003FF557 /* SMAddTopicViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -270,6 +284,7 @@
 		DAE287411EDED09600D597B6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DAE2875F1EDFB09E00D597B6 /* SMHomeTopTitleModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -482,6 +497,7 @@
 				DAE286FD1EDEC1F700D597B6 /* LaunchScreen.storyboard in Resources */,
 				DAE286FA1EDEC1F700D597B6 /* Assets.xcassets in Resources */,
 				DAE286F81EDEC1F700D597B6 /* Main.storyboard in Resources */,
+				DA0B452D1EE10995003FF557 /* SMFirstInstroduceController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,17 +572,21 @@
 			files = (
 				DAE2875A1EDED4BF00D597B6 /* SMNavigationController.swift in Sources */,
 				DAE287531EDED26700D597B6 /* SMNewCareViewController.swift in Sources */,
+				DA0B452F1EE11BE3003FF557 /* SMHomeTopicController.swift in Sources */,
 				DAE287581EDED28F00D597B6 /* SMMineViewController.swift in Sources */,
+				DAE287A41EE0740D00D597B6 /* UIView+Extension.swift in Sources */,
 				DAE2875E1EDF0E5400D597B6 /* SMNetworkTool.swift in Sources */,
 				DAE287391EDECA5E00D597B6 /* AppDelegate.swift in Sources */,
 				DAE2874C1EDED19300D597B6 /* SMHomeViewController.swift in Sources */,
 				DAE2873D1EDECB1F00D597B6 /* SMTabBarController.swift in Sources */,
+				DA0B452C1EE10995003FF557 /* SMFirstInstroduceController.swift in Sources */,
 				DAE2875C1EDEEADC00D597B6 /* SMScrollTitleView.swift in Sources */,
 				DAE2873A1EDECA5E00D597B6 /* SMConst.swift in Sources */,
 				DAE2874E1EDED1EA00D597B6 /* SMVideoViewController.swift in Sources */,
 				DAE2873F1EDED04600D597B6 /* SMBaseViewController.swift in Sources */,
 				DAE2873B1EDECA5E00D597B6 /* ViewController.swift in Sources */,
-				DAE287311EDEC90400D597B6 /* SMFirstInstroduceController.swift in Sources */,
+				DAE287601EDFB09E00D597B6 /* SMHomeTopTitleModel.swift in Sources */,
+				DA0B45311EE13558003FF557 /* SMAddTopicViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

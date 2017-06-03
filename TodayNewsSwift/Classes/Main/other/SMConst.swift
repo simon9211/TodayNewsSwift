@@ -16,10 +16,39 @@ let SMTabBarDidSelectedNotification = "SMTabBarDidSelectedNotification"
 let IID: String = "5034850950"
 let device_id: String = "6096495334"
 
+let BASE_URL = "http://lf.snssdk.com/"
+/// 是否登录
+let isLogin = "isLogin"
+/// code 码 200 操作成功
+let RETURN_OK = 200
+/// 间距
+let kMargin: CGFloat = 10.0
+/// 首页新闻间距
+let kHomeMargin: CGFloat = 15.0
+/// 圆角
+let kCornerRadius: CGFloat = 5.0
+/// 线宽
+let klineWidth: CGFloat = 1.0
+/// 首页顶部标签指示条的高度
+let kIndicatorViewH: CGFloat = 2.0
+/// 新特性界面图片数量
+let kNewFeatureCount = 4
+/// 顶部标题的高度
+let kTitlesViewH: CGFloat = 35
+/// 顶部标题的y
+let kTitlesViewY: CGFloat = 64
+/// 动画时长
+let kAnimationDuration = 0.25
+
+
 /// 屏幕的宽
 let SCREENW = UIScreen.main.bounds.size.width
 /// 屏幕的高
 let SCREENH = UIScreen.main.bounds.size.height
+
+let KHomeTitleNomalColor = SMColor(r: 235, g: 235, b: 235, a: 1.0)
+let KHomeTitleLabelSelectedScale: CGFloat = 1.1
+
 
 /// RGBA的颜色设置
 func SMColor(r:CGFloat, g:CGFloat, b:CGFloat, a:CGFloat) -> UIColor {

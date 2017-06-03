@@ -1,5 +1,5 @@
 //
-//  SMFirstInstroduceController.swift
+//  SMHomeTopicController.swift
 //  TodayNewsSwift
 //
 //  Created by xiwang wang on 2017/6/2.
@@ -8,19 +8,26 @@
 
 import UIKit
 
-class SMFirstInstroduceController: UIViewController {
+class SMHomeTopicController: UITableViewController {
 
+    ///上一次选中的tabbar index
+    var lastSelectedIndex = Int()
+    
+    private var pullRefreshTime: TimeInterval?
+    
+    var topTitle: SMHomeTopTitleModel? = nil
+    
+//    private var newsTopics = 
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func getInNow(_ sender: UIButton) {
-        UIApplication.shared.keyWindow?.rootViewController = SMTabBarController()
-    }
-    
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
