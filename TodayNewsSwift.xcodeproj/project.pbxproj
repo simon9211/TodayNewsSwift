@@ -12,6 +12,15 @@
 		DA0B452D1EE10995003FF557 /* SMFirstInstroduceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA0B452B1EE10995003FF557 /* SMFirstInstroduceController.xib */; };
 		DA0B452F1EE11BE3003FF557 /* SMHomeTopicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B452E1EE11BE3003FF557 /* SMHomeTopicController.swift */; };
 		DA0B45311EE13558003FF557 /* SMAddTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B45301EE13558003FF557 /* SMAddTopicViewController.swift */; };
+		DA0B45331EE2EC26003FF557 /* SMNewsTopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B45321EE2EC26003FF557 /* SMNewsTopicModel.swift */; };
+		DA0B45351EE316A4003FF557 /* SMHomeSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B45341EE316A4003FF557 /* SMHomeSearch.swift */; };
+		DA0B45371EE3BF53003FF557 /* SMHomeTopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B45361EE3BF53003FF557 /* SMHomeTopicCell.swift */; };
+		DA1F1E7A1EE46A3D0002FBA2 /* SMHomeSmallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1F1E791EE46A3D0002FBA2 /* SMHomeSmallCell.swift */; };
+		DA1F1E951EE6C67B0002FBA2 /* NSString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1F1E941EE6C67B0002FBA2 /* NSString+Extension.swift */; };
+		DA1F1E971EE6D6300002FBA2 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1F1E961EE6D6300002FBA2 /* UIImageView+Extension.swift */; };
+		DA1F1E991EE702710002FBA2 /* SMHomeMiddleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1F1E981EE702710002FBA2 /* SMHomeMiddleCell.swift */; };
+		DA1F1E9B1EE7065E0002FBA2 /* SMHomeLargeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1F1E9A1EE7065E0002FBA2 /* SMHomeLargeCell.swift */; };
+		DA1F1E9D1EE79AD90002FBA2 /* SMHomeNoImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1F1E9C1EE79AD90002FBA2 /* SMHomeNoImageCell.swift */; };
 		DAE286F81EDEC1F700D597B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE286F61EDEC1F700D597B6 /* Main.storyboard */; };
 		DAE286FA1EDEC1F700D597B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE286F91EDEC1F700D597B6 /* Assets.xcassets */; };
 		DAE286FD1EDEC1F700D597B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE286FB1EDEC1F700D597B6 /* LaunchScreen.storyboard */; };
@@ -58,6 +67,15 @@
 		DA0B452B1EE10995003FF557 /* SMFirstInstroduceController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMFirstInstroduceController.xib; sourceTree = "<group>"; };
 		DA0B452E1EE11BE3003FF557 /* SMHomeTopicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMHomeTopicController.swift; sourceTree = "<group>"; };
 		DA0B45301EE13558003FF557 /* SMAddTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMAddTopicViewController.swift; sourceTree = "<group>"; };
+		DA0B45321EE2EC26003FF557 /* SMNewsTopicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNewsTopicModel.swift; sourceTree = "<group>"; };
+		DA0B45341EE316A4003FF557 /* SMHomeSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMHomeSearch.swift; sourceTree = "<group>"; };
+		DA0B45361EE3BF53003FF557 /* SMHomeTopicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMHomeTopicCell.swift; sourceTree = "<group>"; };
+		DA1F1E791EE46A3D0002FBA2 /* SMHomeSmallCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMHomeSmallCell.swift; sourceTree = "<group>"; };
+		DA1F1E941EE6C67B0002FBA2 /* NSString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Extension.swift"; sourceTree = "<group>"; };
+		DA1F1E961EE6D6300002FBA2 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		DA1F1E981EE702710002FBA2 /* SMHomeMiddleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMHomeMiddleCell.swift; sourceTree = "<group>"; };
+		DA1F1E9A1EE7065E0002FBA2 /* SMHomeLargeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMHomeLargeCell.swift; sourceTree = "<group>"; };
+		DA1F1E9C1EE79AD90002FBA2 /* SMHomeNoImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMHomeNoImageCell.swift; sourceTree = "<group>"; };
 		DAE286EF1EDEC1F700D597B6 /* TodayNewsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNewsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE286F71EDEC1F700D597B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAE286F91EDEC1F700D597B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -239,6 +257,8 @@
 			isa = PBXGroup;
 			children = (
 				DAE287A31EE0740D00D597B6 /* UIView+Extension.swift */,
+				DA1F1E941EE6C67B0002FBA2 /* NSString+Extension.swift */,
+				DA1F1E961EE6D6300002FBA2 /* UIImageView+Extension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -285,6 +305,7 @@
 			isa = PBXGroup;
 			children = (
 				DAE2875F1EDFB09E00D597B6 /* SMHomeTopTitleModel.swift */,
+				DA0B45321EE2EC26003FF557 /* SMNewsTopicModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -293,6 +314,12 @@
 			isa = PBXGroup;
 			children = (
 				DAE2875B1EDEEADC00D597B6 /* SMScrollTitleView.swift */,
+				DA0B45341EE316A4003FF557 /* SMHomeSearch.swift */,
+				DA0B45361EE3BF53003FF557 /* SMHomeTopicCell.swift */,
+				DA1F1E791EE46A3D0002FBA2 /* SMHomeSmallCell.swift */,
+				DA1F1E981EE702710002FBA2 /* SMHomeMiddleCell.swift */,
+				DA1F1E9A1EE7065E0002FBA2 /* SMHomeLargeCell.swift */,
+				DA1F1E9C1EE79AD90002FBA2 /* SMHomeNoImageCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -570,20 +597,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA0B45331EE2EC26003FF557 /* SMNewsTopicModel.swift in Sources */,
+				DA1F1E991EE702710002FBA2 /* SMHomeMiddleCell.swift in Sources */,
 				DAE2875A1EDED4BF00D597B6 /* SMNavigationController.swift in Sources */,
+				DA0B45351EE316A4003FF557 /* SMHomeSearch.swift in Sources */,
+				DA1F1E951EE6C67B0002FBA2 /* NSString+Extension.swift in Sources */,
+				DA1F1E971EE6D6300002FBA2 /* UIImageView+Extension.swift in Sources */,
 				DAE287531EDED26700D597B6 /* SMNewCareViewController.swift in Sources */,
 				DA0B452F1EE11BE3003FF557 /* SMHomeTopicController.swift in Sources */,
 				DAE287581EDED28F00D597B6 /* SMMineViewController.swift in Sources */,
 				DAE287A41EE0740D00D597B6 /* UIView+Extension.swift in Sources */,
+				DA1F1E7A1EE46A3D0002FBA2 /* SMHomeSmallCell.swift in Sources */,
 				DAE2875E1EDF0E5400D597B6 /* SMNetworkTool.swift in Sources */,
 				DAE287391EDECA5E00D597B6 /* AppDelegate.swift in Sources */,
 				DAE2874C1EDED19300D597B6 /* SMHomeViewController.swift in Sources */,
 				DAE2873D1EDECB1F00D597B6 /* SMTabBarController.swift in Sources */,
+				DA1F1E9D1EE79AD90002FBA2 /* SMHomeNoImageCell.swift in Sources */,
 				DA0B452C1EE10995003FF557 /* SMFirstInstroduceController.swift in Sources */,
+				DA0B45371EE3BF53003FF557 /* SMHomeTopicCell.swift in Sources */,
 				DAE2875C1EDEEADC00D597B6 /* SMScrollTitleView.swift in Sources */,
 				DAE2873A1EDECA5E00D597B6 /* SMConst.swift in Sources */,
 				DAE2874E1EDED1EA00D597B6 /* SMVideoViewController.swift in Sources */,
 				DAE2873F1EDED04600D597B6 /* SMBaseViewController.swift in Sources */,
+				DA1F1E9B1EE7065E0002FBA2 /* SMHomeLargeCell.swift in Sources */,
 				DAE2873B1EDECA5E00D597B6 /* ViewController.swift in Sources */,
 				DAE287601EDFB09E00D597B6 /* SMHomeTopTitleModel.swift in Sources */,
 				DA0B45311EE13558003FF557 /* SMAddTopicViewController.swift in Sources */,

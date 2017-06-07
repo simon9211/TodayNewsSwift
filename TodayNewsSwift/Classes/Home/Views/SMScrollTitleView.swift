@@ -81,7 +81,14 @@ class SMScrollTitleView: UIView {
     }
     
     ///
-    private func setupUI() {
+    func setupUI() {
+        labels.removeAll()
+        labelWidths.removeAll()
+        for subView in scrollView.subviews {
+            if subView is SMTitleLabel {
+                subView.removeFromSuperview()
+            }
+        }
         addSubview(scrollView)
         addSubview(addButton)
         

@@ -20,7 +20,7 @@ class SMHomeViewController: SMBaseViewController {
     
     private lazy var scrollView: UIScrollView = {
         let scrollView = UIScrollView()
-        scrollView.frame = UIScreen.main.bounds
+        scrollView.frame = CGRect(x: 0, y: 0, width: SCREENW, height: SCREENH)
         scrollView.isPagingEnabled = true
         scrollView.delegate = self
         return scrollView
@@ -32,13 +32,16 @@ class SMHomeViewController: SMBaseViewController {
         return titleView
     }()
     
-    
+    lazy var addTopticVC: SMAddTopicViewController = {
+        return SMAddTopicViewController()
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
-        
+
         homeTitleViewCallBack()
+        addTopicItem()
     }
     
     ///设置ui
@@ -69,9 +72,8 @@ class SMHomeViewController: SMBaseViewController {
         
         // + 回调
         titleView.addButtonClickClosure { [weak self] in
-            let addTopticVC = SMAddTopicViewController()
-            addTopticVC.myTopics = self!.homeTitles
-            let navi = SMNavigationController(rootViewController: addTopticVC)
+            self?.addTopticVC.myTopics = self!.homeTitles
+            let navi = SMNavigationController(rootViewController: self!.addTopticVC)
             self!.present(navi, animated: true, completion: nil)
             print("add button")
         }
@@ -84,6 +86,28 @@ class SMHomeViewController: SMBaseViewController {
             print(titleLabel.text ?? "没有")
         }
         
+    }
+    
+    ///处理 + 后 点击item的回调
+    private func addTopicItem() {
+        addTopticVC.didAddTopictItemClosure { [weak self](itemTopic) in
+            print(itemTopic.name!)
+            var isContain: Bool = false
+            for (index,item) in self!.homeTitles.enumerated() {
+                if item.name == itemTopic.name {
+                    self!.titleView.adjustTitleOffSetToCurrentIndex(currentIndex: index, oldIndex: self!.oldIndex)
+                    isContain = true
+                    break
+                } else {
+                    continue
+                }
+            }
+            if !isContain {
+                self!.titleView.titles.append(itemTopic)
+                self!.titleView.setupUI()
+                self!.titleView.adjustTitleOffSetToCurrentIndex(currentIndex: self!.homeTitles.count - 1, oldIndex: self!.oldIndex)
+            }
+        }
     }
     
     ///归档标题数据
