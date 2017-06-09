@@ -1,2 +1,2 @@
-# TpdayNewsSwift
+# TodayNewsSwift
 Practice coding by swift 
