@@ -13,6 +13,7 @@ import SVProgressHUD
 import MJRefresh
 
 class SMNetworkTool: NSObject {
+    
     ///单例
     static let shareNetworkTool = SMNetworkTool()
  //********************************************首**页****************************************************/
@@ -115,5 +116,8 @@ class SMNetworkTool: NSObject {
         tableView.mj_header.beginRefreshing()
     }
     
+    func increateor(ptr: UnsafeMutablePointer<Int>) {
+        
+    }
     
 }
